@@ -53,7 +53,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 		var percent_city = city_count/(city_count + country_count)*100; // This line converts the city_count into a percentage
 		var percent_country = country_count/(city_count + country_count)*100; // This line converts the country_count into a percentage
 		var resultsText = document.getElementById("resultsLocation"); // creates a java script link between the variable called "resultsText" and the page element with id of resultsLocation
-		resultsLocation.innerHTML = "Probability it is allergies = " + percent_city + "% <br> Probability it is a country = " + percent_country + "%" //This line replaces the text from the Results Page with the diagnosis
+		resultsLocation.innerHTML = "Probability you are a City person = " + percent_city + "% <br> Probability you are a Country Person = " + percent_country + "%" //This line replaces the text from the Results Page with the diagnosis
 	}
 
   </script>
@@ -84,11 +84,11 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 <body>
 <div id="header" class="w3-container w3-flat-carrot">
-	<h1>country or Allergies?</h1> 
+	<h1>country or City?</h1> 
 </div>
 <!--this section displays the content that the user sees immediately upon opening the website-->
 <div id="content" class="w3-container">
-	<p>Are you feeling like you might have a country but wonder if it is allergies. Answer a few short questions to find out!</p> <!--Introduce the user to the website-->
+	<p>Are you feeling like you might have a country but wonder if it is City. Answer a few short questions to find out!</p> <!--Introduce the user to the website-->
 
 	<a href="#one" class="w3-btn w3-grey w3-round"> Get Started </a> <!-- this line presents the first button that users click to proceed to page one-->
 	
